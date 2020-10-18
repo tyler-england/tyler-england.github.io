@@ -309,7 +309,6 @@
 <!--Resume -->
 <section class="page_section" id="clients"><!--page_section-->
   <h2>Resume/CV</h2>
-<!-- Add downloadable PDF, add paragraph text. Animation? -->
 <!--page section-->
 <div class="client_logos"><!--client_logos-->
   <div class="container">
@@ -319,6 +318,9 @@
       <li><a href="javascript:void(0)"><img src="img/client_logo3.png" alt=""></a></li>
       <li><a href="javascript:void(0)"><img src="img/client_logo5.png" alt=""></a></li> -->
     </ul>
+    <br/>
+    <p>Test paragraph text</p><br/>
+    <p>...to see what happens!</p>
   </div>
 </div>
 </section>

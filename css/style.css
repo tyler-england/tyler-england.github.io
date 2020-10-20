@@ -56,13 +56,13 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: normal;
-    color: #888888;
+    color: #232323;
     margin: 0;
 }
 
 h2 {
     font-size: 38px;
-    color: #222222;
+    color: #232323;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
     margin: 0px 0 25px 0;
@@ -76,6 +76,10 @@ h3 {
     color: #222222;
     font-size: 18px;
     margin: 0 0 5px 0;
+}
+
+h4 {
+    color: #888888
 }
 
 h6 {
@@ -241,7 +245,7 @@ p {
     color: #FFF;
     margin: 0 0 20px 0;
     text-align: left;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .top_left_cont h2 {
@@ -259,7 +263,7 @@ p {
 
 .top_left_cont p {
     font-size: 16px;
-    color: #000;
+    color: #232323;
     margin: 0 0 30px 0;
     line-height: 26px;
 }
@@ -422,7 +426,7 @@ a.read_more2:hover {
 
 .work_bottom span {
     font-size: 18px;
-    color: #333333;
+    color: #232323;
     display: block;
     margin: 0 0 20px 0;
 }
@@ -893,6 +897,7 @@ img {
     line-height: 50px;
     font-size: 25px;
     color: #fff;
+    margin-left: 5px
 }
 
 .social_links li a:hover, .social_links li a:focus {
@@ -1119,7 +1124,7 @@ img {
 }
 
 .section-title h2 {
-    color: #222222;
+    color: #232323;
     font-family: 'Raleway', sans-serif;
     font-size: 34px;
     letter-spacing: -1px;

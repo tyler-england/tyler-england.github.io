@@ -449,7 +449,7 @@ a.read_more2:hover {
 a.contact_btn {
     background: #fff;
     text-transform: uppercase;
-    display: block;
+    display: inline-block;
     width: 176px;
     height: 49px;
     text-align: center;

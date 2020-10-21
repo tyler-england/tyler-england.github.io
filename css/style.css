@@ -133,13 +133,6 @@ p {
     margin-bottom: 0px;
 }
 
-/* commenting out
-.navbar-inverse .navbar-nav > li > a {
-    color: #222;
-}
-should put back... */
-
-/* NEWNEWNEWNEW */
 .navbar .navbar-nav > li > a,
 .navbar .navbar-nav > .active > a{
     color: #222;
@@ -147,11 +140,12 @@ should put back... */
 
 .navbar .navbar-nav > li > a:hover,
 .navbar .navbar-nav > li > a:focus,
-.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:hover {
+    color: #2079c7
+}
 .navbar .navbar-nav > .active > a:focus {
     color: #2079c7;
 }
-/* NEWNEWNEWNEW */
 
 .navStyle {
     float: right;
@@ -201,7 +195,7 @@ should put back... */
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: 2079c7;
+    color: #2079c7;
     background-color: transparent;
 	/* TRIED -- creates outline*/
 }
@@ -829,7 +823,7 @@ img {
 }
 
 .contact_block_icon span {
-    background: none repeat scroll 0 0 #f56eab;
+    background: none repeat scroll 0 0 #2079c7;
     border: 5px solid #fff;
     border-radius: 50%;
     display: block;
@@ -1019,7 +1013,7 @@ img {
 
 .footer_bottom span a {
     display: inline-block;
-    color: #2079c7;
+    color: #2079c7; /* footer grey */
     font-size: 4px;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -1732,8 +1726,9 @@ margin: 0px;
 }
 .navbar-inverse .navbar-nav > li > a {
 color: #222;
-background: #2079c7;
+background: #ffffff;
 }
+
 } 
 @media (max-width: 480px){ 
 .team_area {

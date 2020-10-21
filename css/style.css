@@ -101,6 +101,9 @@ p {
     font-size: 16px;
     margin: 0;
 }
+p.white {
+    color: #ffffff;
+}
 
 /* Header Styles
 ---------------------------------*/

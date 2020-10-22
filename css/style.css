@@ -30,7 +30,7 @@ img {
 }
 
 a, a:hover, a:active {
-    outline: 0px !important; /* TRIED adding color */
+    outline: 0px !important; 
 }
 .clear {
     clear: both;
@@ -121,8 +121,10 @@ p.white {
 .logo {
     float: left;
     margin-top: 8px;
-	position: relative;
-	z-index: 2;
+    position: relative;
+    z-index: 2;
+    height: 50px;
+    max-height: 100px;
 }
 
 .res-nav_click {
@@ -138,8 +140,8 @@ p.white {
 }
 
 .navbar {
-    border: 0px solid #fff; /* TRIED */
-    min-height: 40px;
+    border: 0px solid #fff;
+    min-height: 10px;
     margin-bottom: 0px;
 }
 
@@ -194,26 +196,22 @@ p.white {
 
 .navStyle ul li a:hover {
     color: #2079c7;
-	/* TRIED (adding bg-col) */
 }
 
 .navStyle > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
     color: #2079c7;
     background-color: transparent;
-	/* TRIED */
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     color: #2079c7;
     background-color: transparent;
-	/* TRIED -- creates outline*/
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #2079c7;
     background-color: transparent;
-	/* TRIED */
 }
 
 .navStyle > li.active > a,
@@ -221,7 +219,6 @@ p.white {
     text-decoration: none;
     color: #2079c7;
     background-color: transparent;
-	/* TRIED */
 }
 
 .borderLeft {
@@ -1661,7 +1658,7 @@ padding: 38px 0;
 }
 .top_left_cont h2 {
 font-size: 25px;
-color: #FFF; /* TRIED */
+color: #FFF;
 line-height: 39px;
 margin: 0 0 9px 0;
 }
@@ -1714,13 +1711,13 @@ font-size: 30px;
 padding: 60px 0 50px;
 } 
 .navbar-inverse .navbar-toggle .icon-bar{
-background:#2079c7; /* TRIED adding color */
+background:#2079c7;
 }
 .navbar-inverse .navbar-toggle {
 border-color: transparent;
 }
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
-background:none; /* TRIED adding color */
+background:none; 
 outline: none;
 }
 .navStyle ul li {

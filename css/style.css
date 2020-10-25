@@ -439,7 +439,7 @@ a.read_more2:hover {
 }
 
 .page_section.alabaster {
-    background: #fafafa;
+    background: #2079c7;
 }
 
 .work_bottom {
@@ -633,6 +633,7 @@ img {
     color: #888888;
 }
 
+
 /* Clients
 ---------------------------------*/
 
@@ -658,6 +659,10 @@ img {
 .client_logos ul a {
     display: inline-block;
     margin: 0 20px;
+}
+
+.client_logos h2 {
+    color: #ffffff;
 }
 
 .page_section.team {
@@ -1691,6 +1696,7 @@ padding: 40px 0;
 }
 , #clients {
 padding: 40px 0;
+background-color: #2079c7;
 }
 .client_logos ul li {
 display: inline;

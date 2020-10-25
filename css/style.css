@@ -349,7 +349,7 @@ a.read_more2:hover {
     border-radius: 50%;
     width: 90px;
     height: 90px;
-    margin: 0px auto 25px;
+    margin: 0px auto 25px; /* placement of circle in slot */
 }
 
 .service_icon.icon2 {
@@ -371,9 +371,9 @@ a.read_more2:hover {
 .service_icon i {
     color: #2079c7;
     font-size: 40px;
-    margin-top: 0;
+    margin-top: 0px;
     position: relative;
-    top: 20px;
+    top: 22px;
     z-index: 20;
 }
 

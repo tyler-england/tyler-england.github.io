@@ -19,6 +19,11 @@ ul {
     margin: 0px;
 }
 
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
 .vertical-align {
     display: flex;
     align-items: center;
@@ -80,7 +85,7 @@ h3 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     color: #222222;
-    font-size: 18px;
+    font-size: 16px;
     margin: 0 0 5px 0;
 }
 
@@ -99,7 +104,7 @@ h6 {
 
 p {
 /*    line-height: 24px;  */
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
 }
 p.white {
@@ -246,6 +251,15 @@ p.white {
     padding-top: 50px;
 }
 
+.hero_section i {
+    display: inline-block;
+    text-align: center;
+}
+
+.hero_section a {
+    color: #ffffff;
+}
+
 .white_pad {
     position: relative;
     right: 0px;
@@ -263,10 +277,10 @@ p.white {
 }
 
 .top_left_cont h3 {
-    font-size: 16px;
+    font-size: 20px;
     color: #FFF;
     margin: 0 0 20px 0;
-    text-align: left;
+    text-align: center;
     font-weight: 400;
 }
 
@@ -276,7 +290,7 @@ p.white {
     line-height: 52px;
     margin: 0 0 26px 0;
     font-family: 'Raleway', sans-serif;
-    text-align: left;
+    text-align: center;
 }
 
 .top_left_cont h2 strong {
@@ -644,6 +658,14 @@ img {
     margin-top: 60px;
 }
 
+.client_logos a {
+    padding: 15px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 .client_logos ul {
     padding: 0;
     margin: 0;
@@ -813,6 +835,12 @@ img {
     color: #ffffff;
     margin: 0 0 50px 0;
     text-transform: uppercase;
+}
+
+.contact_section h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0;
 }
 
 .contact_block {

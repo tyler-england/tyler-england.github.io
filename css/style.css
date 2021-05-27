@@ -270,7 +270,7 @@ p.white {
 }
 
 .top_left_cont h3 {
-    font-size: 20px;
+    font-size: 24px;
     color: #FFF;
     margin: 0 0 20px 0;
     text-align: center;
@@ -288,6 +288,13 @@ p.white {
 
 .top_left_cont h2 strong {
     font-weight: 700;
+}
+
+.top_left_cont h5 {
+    font-size: 30px;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
 }
 
 .top_left_cont p {

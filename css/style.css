@@ -241,7 +241,7 @@ p.white {
 
 .hero_section {
     position: relative;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .hero_section i {
@@ -266,13 +266,14 @@ p.white {
 }
 
 .top_left_cont {
-    padding: 110px 0;
+    padding: 0 0; /*was: 110 px 0;*/
 }
 
 .top_left_cont h3 {
     font-size: 24px;
     color: #FFF;
     margin: 0 0 20px 0;
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     font-weight: 400;
 }
@@ -280,14 +281,13 @@ p.white {
 .top_left_cont h2 {
     font-size: 40px;
     color: #FFF;
-    line-height: 52px;
     margin: 0 0 26px 0;
-    font-family: 'Raleway', sans-serif;
     text-align: center;
+    font-weight: 400;
 }
 
 .top_left_cont h2 strong {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .top_left_cont h5 {
@@ -1687,13 +1687,16 @@ position: relative;
 padding-top: 10px;
 }
 .top_left_cont {
-padding: 38px 0;
+padding: 20px 0;
 }
 .top_left_cont h2 {
-font-size: 25px;
+font-size: 28px;
 color: #FFF;
-line-height: 39px;
+line height:39px;
 margin: 0 0 9px 0;
+}
+.top_left_cont h3 {
+font-size: 23px;
 }
 .inner_section {
 padding: 20px 0 20px;
